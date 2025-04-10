@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 class MyAdapter(private val namaList: ArrayList<ItemData>) : RecyclerView.Adapter<MyAdapter.MyViewHolder>(){
     class MyViewHolder (itemData: View) : RecyclerView.ViewHolder (itemData) {
         val gambar: ImageView = itemData.findViewById(R.id.imageView)
-        val nama: TextView = itemData.findViewById(R.id.NamaProduk)
+        val nama: TextView = itemData.findViewById(R.id.NegaraASEAN)
         val desk: TextView = itemData.findViewById(R.id.deskProduk)
     }
 

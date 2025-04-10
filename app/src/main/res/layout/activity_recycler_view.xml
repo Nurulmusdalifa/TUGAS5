@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Produk Kami"
+        android:text="Negara ASEAN"
         android:textColor="@color/biruterang"
         android:textSize="38sp"
         android:textStyle="bold"

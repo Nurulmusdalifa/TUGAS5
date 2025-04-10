@@ -25,12 +25,12 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/NamaProduk"
+            android:id="@+id/NegaraASEAN"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
-            android:text="Nama Produk"
+            android:text="Nama Negara"
             android:textColor="@color/biruterang"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -44,15 +44,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="Deskripsi produk"
+            android:layout_marginTop="47dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="tahun kemerdekaan"
             android:textColor="@color/biru"
             android:textSize="14sp"
-            android:maxLines="3"
-            android:ellipsize="end"
             app:layout_constraintBottom_toBottomOf="@id/imageView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/imageView"
-            app:layout_constraintTop_toBottomOf="@id/NamaProduk" />
+            app:layout_constraintTop_toTopOf="@+id/NegaraASEAN" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
