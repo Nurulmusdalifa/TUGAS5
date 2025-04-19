@@ -6,7 +6,7 @@
     android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main">
+    tools:context=".HalamanUtama">
 
     <ImageButton
         android:id="@+id/btnLogout"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:backgroundTint="@color/biruterang"
-        android:text="Tugas 3"
+        android:text="Kirim Pesan"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -63,7 +63,7 @@
         android:id="@+id/btnrv"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="44dp"
         android:backgroundTint="@color/biruterang"
         android:text="@string/textRV"
         android:textColor="@color/white"
@@ -72,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textUsername" />
+        app:layout_constraintTop_toBottomOf="@+id/btntugas3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
