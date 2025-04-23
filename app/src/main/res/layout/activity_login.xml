@@ -2,31 +2,30 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".login"
     android:background="@color/background">
 
 
-
     <ImageView
         android:id="@+id/img1"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
+        android:layout_width="195dp"
+        android:layout_height="202dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="30dp"
         android:layout_marginTop="30dp"
-        android:src="@drawable/design"/>
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/design" />
 
     <TextView
         android:id="@+id/txtjudul"
-        android:layout_width="172dp"
-        android:layout_height="197dp"
+        android:layout_width="151dp"
+        android:layout_height="159dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="60dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="@string/textJdl"
+        android:text="Already Have Account?"
         android:textColor="@color/biruterang"
         android:textSize="38sp"
         android:textStyle="bold" />
@@ -44,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Etext"
+            android:text="Email"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/black"
@@ -54,7 +53,7 @@
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Etext1"
+            android:hint="Enter your email"
             android:drawableStart="@drawable/ic_email"
             android:drawablePadding="10dp"
             android:padding="15dp"
@@ -65,7 +64,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Ptext"
+            android:text="Password"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/black"
@@ -76,7 +75,7 @@
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Ptext1"
+            android:hint="Enter your password"
             android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="10dp"
             android:padding="15dp"
@@ -84,6 +83,16 @@
             android:inputType="textPassword"/>
 
         <!-- Forget Password -->
+        <TextView
+            android:id="@+id/txtForget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"/>
 
         <!-- Button Login -->
         <Button
@@ -93,7 +102,7 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/biru"
             android:elevation="6dp"
-            android:text="@string/lgn"
+            android:text="Login"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -116,7 +125,7 @@
                 android:id="@+id/textWithlgn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/lgnWith"
+                android:text="or login with"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="16sp"
@@ -168,6 +177,16 @@
         </LinearLayout>
 
         <!-- register -->
+        <TextView
+            android:id="@+id/textRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dont have an account? Register now"
+            android:textColor="@color/biruterang"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"/>
 
     </LinearLayout>
 
